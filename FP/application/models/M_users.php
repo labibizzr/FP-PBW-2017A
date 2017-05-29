@@ -22,6 +22,11 @@ class M_users extends CI_Model
     else
       return false;
   }
+public function resetPassword($password){
+  $data=array('password' => $password);
+    $this->db->where('username', 'admin');
+    $this->db->update('user', $data);
 
+}
 }
 ?>
