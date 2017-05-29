@@ -63,6 +63,10 @@ class C_admin extends CI_Controller
             echo "Email tidak ada";
           }
           else {
+            $password = 'iX123';
+            $password_hashed = password_hash($password, PASSWORD_DEFAULT);
+            $this->M_users->resetPassword($password_hashed);
+
             //$sender = 'smurfingsasa0@gmail.com';
             $config['protocol'] = 'smtp';
             $config['smtp_host'] ='ssl://smtp.gmail.com';
@@ -73,13 +77,13 @@ class C_admin extends CI_Controller
             $config['charset'] = 'iso-8859-1';
             $this->load->library('email',$config);
             $this->email->set_newline("\r\n");
-            $this->email->from('smurfingsasa0@gmail.com', 'sasa0');
+            $this->email->from('smurfingsasa0@gmail.com', 'no-reply');
             $this->email->to('labibizzr@gmail.com');
             // $this->email->cc('another@another-example.com');
             // $this->email->bcc('them@their-example.com');
 
-            $this->email->subject('Email Test');
-            $this->email->message('Testing the email class.');
+            $this->email->subject('Reset Password Admin');
+            $this->email->message('Password baru adalah '. $password);
 
             if($this->email->send())
             echo 'email terkirim';
@@ -88,6 +92,10 @@ class C_admin extends CI_Controller
             }
           }
         }
+    }
+
+    private function resetPassword(){
+
     }
       public function beranda(){
         $data['title'] = "Beranda Admin";
