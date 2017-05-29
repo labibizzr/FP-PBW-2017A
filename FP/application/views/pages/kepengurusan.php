@@ -44,7 +44,7 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="<?php echo base_url('assets'); ?>/images/aboutus/1.jpg" class="img-responsive" alt="">
+                                            <img src="<?php echo base_url('assets'); ?>/images/BPH/safri-BPH.jpg" class="img-responsive" alt="">
                                         </div>
                                     </div>
                                     <div class="person-info">
@@ -57,7 +57,7 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="<?php echo base_url('assets'); ?>/images/aboutus/2.jpg" class="img-responsive" alt="">
+                                            <img src="<?php echo base_url('assets'); ?>/images/BPH/luhung-BPH.jpg" class="img-responsive" alt="">
                                         </div>
 
                                     </div>
@@ -71,7 +71,7 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="<?php echo base_url('assets'); ?>/images/aboutus/3.jpg" class="img-responsive" alt="">
+                                            <img src="<?php echo base_url('assets'); ?>/images/BPH/sofiah-BPH.jpg" class="img-responsive" alt="">
                                         </div>
                                     </div>
                                     <div class="person-info">
@@ -84,7 +84,7 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="<?php echo base_url('assets'); ?>/images/aboutus/1.jpg" class="img-responsive" alt="">
+                                            <img src="<?php echo base_url('assets'); ?>/images/BPH/theresia-BPH.jpg" class="img-responsive" alt="">
                                         </div>
                                     </div>
                                     <div class="person-info">
@@ -99,7 +99,7 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="<?php echo base_url('assets'); ?>/images/aboutus/4.jpg" class="img-responsive" alt="">
+                                            <img src="<?php echo base_url('assets'); ?>/images/BPH/riris-BPH.jpg" class="img-responsive" alt="">
                                         </div>
                                     </div>
                                     <div class="person-info">
@@ -112,7 +112,7 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="<?php echo base_url('assets'); ?>/images/aboutus/3.jpg" class="img-responsive" alt="">
+                                            <img src="<?php echo base_url('assets'); ?>/images/BPH/erlynda-BPH.jpg" class="img-responsive" alt="">
                                         </div>
                                     </div>
                                     <div class="person-info">
